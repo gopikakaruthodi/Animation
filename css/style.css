@@ -1,11 +1,18 @@
+body{
+    position: relative;
+    width: 99.5%;
+    height: 80vh;
+    background-color: beige;
+}
 #round{
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 60px;
     height: 60px;
     /* background-color: yellow; */
     border-radius: 50px;
     border:2px solid green;
-    position: absolute;
-    left: 0;
-    top: 0;
+    transition: 0.3s;
 
 }
